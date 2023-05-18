@@ -49,8 +49,8 @@ class BankAccount:
             print('You have 0$,Process Denied')
             print('--------------------------')
 
-acc1 = BankAccount(0.01,50)
-acc1.deposit(10)
-acc1.withdraw(60)
-acc1.display_account_info()
-acc1.yield_interest()
+# acc1 = BankAccount(0.01,50)
+# acc1.deposit(10)
+# acc1.withdraw(60)
+# acc1.display_account_info()
+# acc1.yield_interest()

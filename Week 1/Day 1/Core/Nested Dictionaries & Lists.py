@@ -28,10 +28,10 @@ students = [
          {'first_name' : 'KB', 'last_name' : 'Tonel'}
     ]
 
-# def iterateDictionary(some_list):
-#     for k in some_list:
-#         print(f"first_name : {k['first_name']} , last_name : {k['last_name']}")
-        
+#def iterateDictionary(some_list):
+#    for k in some_list:
+#        print(f"first_name : {k['first_name']} , last_name : {k['last_name']}")
+      
 # iterateDictionary(students)
 
 # def iterateDictionary2(key, some_list):
