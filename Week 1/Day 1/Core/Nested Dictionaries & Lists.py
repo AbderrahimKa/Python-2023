@@ -28,17 +28,16 @@ students = [
          {'first_name' : 'KB', 'last_name' : 'Tonel'}
     ]
 
-#def iterateDictionary(some_list):
-#    for k in some_list:
-#        print(f"first_name : {k['first_name']} , last_name : {k['last_name']}")
+# def iterateDictionary(some_list):
+#     for k in some_list:
+#         print(f"first_name : {k['first_name']} , last_name : {k['last_name']}")
       
 # iterateDictionary(students)
 
-# def iterateDictionary2(key, some_list):
-#     for k in some_list:
-#         print(k[key])
-        
-# iterateDictionary2('first_name', students)
+def iterateDictionary2(key, some_list):
+    for k in some_list:
+        print(k[key])      
+iterateDictionary2('first_name', students)
 
 dojo = {
    'locations': ['San Jose', 'Seattle', 'Dallas', 'Chicago', 'Tulsa', 'DC', 'Burbank'],
@@ -62,7 +61,7 @@ def printInfo(some_dict):
         for y in range(len(dojo1[i][1])):
             print(dojo1[i][1][y])
 
-printInfo(dojo)
+# printInfo(dojo)
 
 # for i in range(len(dojo)):
 #     for k in dojo1:
