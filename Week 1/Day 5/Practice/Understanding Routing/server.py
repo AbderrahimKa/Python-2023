@@ -18,7 +18,12 @@ def repeat(times,word):
     return (word + ' ') * times
 
 
+# @app.route('/repeat/<int:times>/<word>')
+# def repeat2(times,word):
+#         for i in range(times):
+#             return (word + ' ')
 
+    
 
 if __name__ == "__main__":
     app.run(debug=True)
