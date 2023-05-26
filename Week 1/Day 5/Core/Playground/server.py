@@ -13,8 +13,5 @@ def times_box(times):
 def color_box(times,color):
     return render_template('index.html' , times = times, color=color)
 
-
-
-
 if __name__ == "__main__":
     app.run(debug=True)
